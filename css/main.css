@@ -1,0 +1,66 @@
+body {
+	font-family: Verdana, Arial;
+	font-size: 16px;
+	position: relative;
+}
+
+#mainContainer {
+	border: 2px solid #d1d2d4;
+	width: 900px;
+	position: absolute;
+	left: 50%;
+	margin-left: -450px;
+}
+
+#topMenu {
+	height: 30px;
+	background: #61081b;
+}
+
+#logo {
+	height: 226px;
+	width: 245px;
+	float: left;
+	background: url(../images/logo.png) no-repeat;
+}
+
+#keyvisual {
+	height: 226px;
+	width: 655px;
+	float: left;
+	background: url(../images/keyvisual_1.png) no-repeat;
+}
+
+#middle {
+}
+
+#printHeader {
+	height: 32px;
+}
+
+#leftMenu {
+	width: 245px;
+	background: #61081b;
+	float: left;
+}
+
+#content {
+	width: 655px;
+	float: left;
+}
+
+#contentLeft {
+	width: 395px;
+	padding: 0 22px 0 43px;
+	float: left;
+}
+
+#contentRight {
+	width: 195px;
+	background: blue;
+	float: left;
+}
+
+.clearFloat {
+	clear: both;
+}

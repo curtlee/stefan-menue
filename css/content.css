@@ -1,0 +1,73 @@
+h1 { /* on top of content */
+	margin: 0px 0px 0px 0px;
+	color: #61081b;
+	font-size: 26px;
+	text-align: left;
+}
+
+h2 { /* on top of content */
+	margin: 0px 0px 0px 0px;
+	color: #61081b;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 10%;
+	font-weight: normal;
+}
+
+h3 { /* inside content */
+	margin: 10px 0px;
+	color: #61081b;
+	font-size: 18px;
+	text-align: left;
+	font-weight: normal;
+}
+
+#printHeader a {
+	color: #61081b;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 4px 25px 0 0;
+	float: right;
+}
+
+.hotlineTeaser {
+	padding: 11px 11px 6px 11px;
+	background: #61081b;
+	color: #fafcfe;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+}
+
+.hotlineTeaser .hotlineText {
+	background: url(../images/hotline-text-deco.png) no-repeat;
+	height: 27px;
+	color: #e4e1d2;
+	font-size: 17px;
+	line-height: 1.5em;
+}
+
+.hotlineTeaser .hotlineNumber {
+	color: fdfbf7;
+	margin-top: 5px;
+	font-size: 19px;
+	padding-right: 5px;
+}
+
+.gfsLogo {
+	margin-left: 108px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background: url(../images/gfs_logo.png) no-repeat;
+	width: 31px;
+	height: 50px;
+}
+
+#contentLeft p {
+	font-size: 15px;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.5em;
+}

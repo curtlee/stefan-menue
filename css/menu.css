@@ -1,0 +1,52 @@
+#leftMenu {
+	padding-top: 10px;
+}
+
+#topMenu {
+	position: relative;
+	height: 30px;
+}
+
+#topMenu ul {
+	width: auto;
+	position: absolute;
+	right: 30px;
+}
+
+#topMenu li{
+	float: left;
+}
+
+#leftMenu, #topMenu {
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+#leftMenu ul, #topMenu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#leftMenu li, #topMenu li {
+	padding-left: 33px;
+	background: url(../images/menu-bullet-small.png) no-repeat 16px 10px;
+	line-height: 2.5em;
+}
+
+#leftMenu li.selected, #topMenu li.selected {
+	padding-left: 37px;
+	background: url(../images/menu-bullet-big.png) no-repeat 17px 11px;
+	font-weight: bold;
+}
+
+#leftMenu a, #topMenu a {
+	color: #f6fbfb;
+	text-decoration: none;
+}
+
+#leftMenu li.separator {
+	background: url(../images/menu-separator.png) no-repeat;
+	height: 2px;
+	margin: 7px 0;
+}
