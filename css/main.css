@@ -1,6 +1,6 @@
 body {
 	font-family: Verdana, Arial;
-	font-size: 16px;
+	font-size: 15px;
 	position: relative;
 }
 
@@ -13,8 +13,7 @@ body {
 }
 
 #topMenu {
-	height: 30px;
-	background: #61081b;
+	background: #5a1319;
 }
 
 #logo {
@@ -25,13 +24,20 @@ body {
 }
 
 #keyvisual {
-	height: 226px;
+	height: 225px;
 	width: 655px;
 	float: left;
 	background: url(../images/keyvisual_1.png) no-repeat;
 }
 
 #middle {
+	background-position: right 0px top 0px;
+	background-repeat: no-repeat;
+}
+
+#menu-and-content {
+	position: relative;
+	min-height: 500px;
 }
 
 #printHeader {
@@ -39,18 +45,21 @@ body {
 }
 
 #leftMenu {
-	width: 245px;
-	background: #61081b;
-	float: left;
+	width: 235px;
+	background: #5a1319;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
 }
 
 #content {
-	width: 655px;
-	float: left;
+	width: 665px;
+	padding-left: 235px;
 }
 
 #contentLeft {
-	width: 395px;
+	width: 405px;
 	padding: 0 22px 0 43px;
 	float: left;
 }

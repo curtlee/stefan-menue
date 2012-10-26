@@ -1,16 +1,17 @@
-#leftMenu {
+#mainContainer #leftMenu ul {
 	padding-top: 10px;
 }
 
 #topMenu {
 	position: relative;
-	height: 30px;
+	padding-top: 17px;
+	height: 31px;
 }
 
 #topMenu ul {
 	width: auto;
 	position: absolute;
-	right: 30px;
+	right: 17px;
 }
 
 #topMenu li{
@@ -18,7 +19,7 @@
 }
 
 #leftMenu, #topMenu {
-	font-size: 13px;
+	font-size: 12px;
 	text-transform: uppercase;
 }
 
@@ -30,13 +31,13 @@
 
 #leftMenu li, #topMenu li {
 	padding-left: 33px;
-	background: url(../images/menu-bullet-small.png) no-repeat 16px 10px;
-	line-height: 2.5em;
+	background: url(../images/menu-bullet-small.png) no-repeat 18px 10px;
+	line-height: 2.7em;
 }
 
 #leftMenu li.selected, #topMenu li.selected {
 	padding-left: 37px;
-	background: url(../images/menu-bullet-big.png) no-repeat 17px 11px;
+	background: url(../images/menu-bullet-big.png) no-repeat 17px 10px;
 	font-weight: bold;
 }
 

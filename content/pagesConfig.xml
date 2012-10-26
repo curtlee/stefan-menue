@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <trees>
 	<tree title="topMenu">
-		<page navTitle="Kontakt" src="kontakt.html" keyvisual=""></page>
-		<page navTitle="Impressum" src="impressum.html" keyvisual=""></page>
+		<page navTitle="Kontakt" src="kontakt.html" keyvisual="content/images/keyvisual-kontakt.jpg" background="content/images/background-startseite.jpg"></page>
+		<page navTitle="Impressum" src="impressum.html" keyvisual="content/images/keyvisual-impressum.jpg" background="content/images/background-startseite.jpg"></page>
 	</tree>
 	<tree title="leftMenu">
-		<page navTitle="Startseite" src="startseite.html" keyvisual="content/images/keyvisual_start.png"></page>
+		<page navTitle="Startseite" src="startseite.html" keyvisual="content/images/keyvisual-startseite.jpg" background="content/images/background-startseite.jpg" default="1"></page>
 		<page type="separator"></page>
-		<page navTitle="Essen auf Rädern" src="essenaufraedern.html"></page>
-		<page navTitle="Betriebsverpflegung" src="betriebsverpflegung.html"></page>
-		<page navTitle="Catering" src="catering.html"></page>
+		<page navTitle="Essen auf Rädern" src="essenaufraedern.html" keyvisual="content/images/keyvisual-essenaufraedern.jpg" background="content/images/background-startseite.jpg"></page>
+		<page navTitle="Betriebsverpflegung" src="betriebsverpflegung.html" keyvisual="content/images/keyvisual-betriebsverpflegung.jpg" background="content/images/background-startseite.jpg"></page>
+		<page navTitle="Catering" src="catering.html" keyvisual="content/images/keyvisual-catering.jpg" background="content/images/background-startseite.jpg"></page>
 		<page type="separator"></page>
-		<page navTitle="Speisepläne und Preise" src="speiseplaene.html"></page>
-		<page navTitle="Unverbindliche Anfrage" src="anfrage.html"></page>
-		<page navTitle="Weitere Informationen..." src="info.html"></page>
-		<page navTitle="Die G.F.S. Gruppe" src="gfs.html"></page>
+		<page navTitle="Speisepläne und Preise" src="speiseplaene.html" keyvisual="content/images/keyvisual-speiseplaene.jpg" background="content/images/background-startseite.jpg"></page>
+		<page navTitle="Unverbindliche Anfrage" src="kontakt.html" keyvisual="content/images/keyvisual-kontakt.jpg" background="content/images/background-startseite.jpg"></page>
+		<page navTitle="Weitere Informationen..." src="info.html" keyvisual="content/images/keyvisual-speiseplaene.jpg" background="content/images/background-startseite.jpg"></page>
+		<page navTitle="Die G.F.S. Gruppe" src="gfs.html" keyvisual="content/images/keyvisual-gfs.jpg" background="content/images/background-startseite.jpg"></page>
 	</tree>
 </trees>
 
