@@ -2,3 +2,43 @@
 <p>
 	Hier haben Sie die Möglichkeit, uns eine E-Mail zu senden:
 </p>
+
+<form name="email_form" method="post" action="kontakt.html">
+	<input type="hidden" name="type" value="email" />
+  <table border="0" cellpadding="0" cellspacing="0" class="kostenTabelle">
+    <tr> 
+        <td colspan="2" nowrap class="kostenTitel">Hier haben Sie die M&ouml;glichkeit 
+          uns eine Email zu senden.
+		###CONTACT_FORM_ERRORS###
+		</td>
+    </tr>
+    <tr> 
+      <td colspan="2" nowrap class="kostenZelle">&nbsp;</td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="kostenZelle"> Ihr Name</td>
+      <td  nowrap class="kostenZelle"> 
+        <input name="name" type="text" size="53" maxlength="256" value="###CONTACT_FORM_NAME###"></td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="kostenZelle">Ihre Frage</td>
+      <td  nowrap class="kostenZelle"> 
+        <textarea name="message" cols="40" rows="10">###CONTACT_FORM_MESSAGE###</textarea></td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="kostenZelle">Ihre Email-Adresse</td>
+      <td  nowrap class="kostenZelle"> 
+        <input name="email" type="text" size="53" maxlength="256" value="###CONTACT_FORM_EMAIL###"></td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="kostenZelle">Ihre Telefon-Nr.</td>
+      <td  nowrap class="kostenZelle"> 
+        <input name="telefon" type="text" size="53" maxlength="256" value="###CONTACT_FORM_TELEFON###"></td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="kostenZelle">&nbsp;</td>
+      <td  nowrap class="kostenZelle"> 
+        <input type="submit" name="Submit" value="Absenden"></td>
+    </tr>
+  </table>
+</form>

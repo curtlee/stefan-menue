@@ -58,7 +58,7 @@ h3 { /* inside content */
 
 .gfsLogo {
 	margin-left: 83px;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	background: url(../images/gfs_logo.png) no-repeat;
 	width: 42px;
@@ -84,4 +84,26 @@ h3 { /* inside content */
 	line-height: 1.6em;
 	font-style: italic;
 	font-weight: bold;
+}
+
+#content .mealPlan {
+	margin-bottom: 20px;
+}
+
+#content .mealPlan .mealPlanItem {
+	height: 20px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+#content .mealPlan .mealPlanItem  a{
+	padding-right: 30px;
+	background: url(../images/pdf.png) no-repeat right 4px;
+}
+
+.error {
+	margin: 20px 0 10px 0;
+	padding: 20px;
+	font-weight: bold;
+	color: red;
+	background: #FFD0D0;
 }

@@ -1,5 +1,8 @@
 <?php
 
+require_once('config.php');
+require_once('library.php');
+
 	// the file name from the url (no path, just filename, should be secure)
 global $requestedFilename;
 $requestedFilename = basename($_SERVER['REQUEST_URI']);
@@ -28,11 +31,22 @@ $leftMenu = generateMenu($leftMenuPages);
 $keyvisualStyle = isset($requestedPageInXML) ? "background: url('" . (string) $requestedPageInXML[0]['keyvisual'] . "');" : '';
 $backgroundStyle = isset($requestedPageInXML) ? "background-image: url('" . (string) $requestedPageInXML[0]['background'] . "');" : '';
 
+$rotatingMealPlan = menuedienstLib::generateRotatingMealPlan();
+$contactFormInfo = menuedienstLib::handleContactForm();
+$contactFormErrors = isset($contactFormInfo['errormessage']) ? $contactFormInfo['errormessage'] : '';
+
 $template = str_replace('###TOP_MENU###', $topMenu, $template);
 $template = str_replace('###LEFT_MENU###', $leftMenu, $template);
 $template = str_replace('###CONTENT###', $content, $template);
 $template = str_replace('###KEYVISUAL_STYLE###', $keyvisualStyle, $template);
 $template = str_replace('###BACKGROUND_STYLE###', $backgroundStyle, $template);
+
+$template = str_replace('###ROTATING_MEAL_PLAN###', $rotatingMealPlan, $template);
+$template = str_replace('###CONTACT_FORM_ERRORS###', $contactFormErrors, $template);
+$template = str_replace('###CONTACT_FORM_NAME###', $contactFormInfo['name'], $template);
+$template = str_replace('###CONTACT_FORM_MESSAGE###', $contactFormInfo['message'], $template);
+$template = str_replace('###CONTACT_FORM_EMAIL###', $contactFormInfo['emailSender'], $template);
+$template = str_replace('###CONTACT_FORM_TELEFON###', $contactFormInfo['telefon'], $template);
 
 echo $template;
 
