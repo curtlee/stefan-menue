@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Speiseplan-Upload"
+AuthUserFile .htpasswd
+Require valid-user
+
+#klartext: a3lp7ra
