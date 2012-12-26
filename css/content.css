@@ -23,6 +23,23 @@ h3 { /* inside content */
 	font-weight: normal;
 }
 
+h4 { /* inside content */
+	margin: 10px 0px 5px 0;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+h3.gfs {
+	color: #000000;
+}
+
+h4.gfs {
+	color: #5a1319;
+	padding-top: 20px;
+}
+
 #printHeader a {
 	color: #5a1319;
 	text-decoration: none;
@@ -91,13 +108,14 @@ h3 { /* inside content */
 }
 
 #content .mealPlan .mealPlanItem {
-	height: 20px;
 	margin-bottom: 10px;
 	padding-left: 20px;
 }
 #content .mealPlan .mealPlanItem  a{
-	padding-right: 30px;
-	background: url(../images/pdf.png) no-repeat right 4px;
+	display: inline-block;
+	padding-right: 50px;
+	background: url(../images/pdf_big.png) no-repeat right 0px;
+	height: 32px;
 }
 
 .error {
@@ -106,4 +124,39 @@ h3 { /* inside content */
 	font-weight: bold;
 	color: red;
 	background: #FFD0D0;
+}
+
+label {
+	font-weight: bold;
+	color: #5a1319;
+}
+
+.formCell {
+	padding: 5px 0 5px 5px;
+}
+
+.formCell input.text {
+	width: 100%;
+}
+
+.formCell textarea.message {
+	width: 100%;
+}
+
+#content a {
+	color: #000000;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+#content a.gfs {
+	color: #000000;
+}
+
+#content a.pdf {
+	display: block;
+	background: url(../images/pdf_big.png) no-repeat right 0px;
+	height: 32px;
+	display: inline-block;
+	padding-right: 50px;
 }

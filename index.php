@@ -28,7 +28,7 @@ if ( count($requestedPageInXML) && file_exists('content/'.$requestedFilename) ) 
 
 $topMenu = generateMenu($topMenuPages);
 $leftMenu = generateMenu($leftMenuPages);
-$keyvisualStyle = isset($requestedPageInXML) ? "background: url('" . (string) $requestedPageInXML[0]['keyvisual'] . "');" : '';
+$keyvisualStyle = isset($requestedPageInXML) ? "background: url('" . (string) $requestedPageInXML[0]['keyvisual'] . "') top right;" : '';
 $backgroundStyle = isset($requestedPageInXML) ? "background-image: url('" . (string) $requestedPageInXML[0]['background'] . "');" : '';
 
 $rotatingMealPlan = menuedienstLib::generateRotatingMealPlan();

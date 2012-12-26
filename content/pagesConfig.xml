@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <trees>
 	<tree title="topMenu">
-		<page navTitle="Kontakt" src="kontakt.html" keyvisual="content/images/keyvisual-kontakt.jpg" background="content/images/background-startseite.jpg"></page>
-		<page navTitle="Impressum" src="impressum.html" keyvisual="content/images/keyvisual-impressum.jpg" background="content/images/background-startseite.jpg"></page>
+		<page navTitle="Kontakt" src="kontakt.html" keyvisual="content/images/keyvisual-startseite.jpg" background=""></page>
+		<page navTitle="Impressum" src="impressum.html" keyvisual="content/images/keyvisual-impressum.jpg" background=""></page>
 	</tree>
 	<tree title="leftMenu">
 		<page navTitle="Startseite" src="startseite.html" keyvisual="content/images/keyvisual-startseite.jpg" background="content/images/background-startseite.jpg" default="1"></page>
@@ -12,9 +12,9 @@
 		<page navTitle="Catering" src="catering.html" keyvisual="content/images/keyvisual-catering.jpg" background="content/images/background-startseite.jpg"></page>
 		<page type="separator"></page>
 		<page navTitle="Speisepläne und Preise" src="speiseplaene.html" keyvisual="content/images/keyvisual-speiseplaene.jpg" background="content/images/background-startseite.jpg"></page>
-		<page navTitle="Unverbindliche Anfrage" src="kontakt.html" keyvisual="content/images/keyvisual-kontakt.jpg" background="content/images/background-startseite.jpg"></page>
+		<page navTitle="Unverbindliche Anfrage" src="anfrage.html" keyvisual="content/images/keyvisual-kontakt.jpg" background="content/images/background-startseite.jpg"></page>
 		<page navTitle="Weitere Informationen..." src="info.html" keyvisual="content/images/keyvisual-speiseplaene.jpg" background="content/images/background-startseite.jpg"></page>
-		<page navTitle="Die G.F.S. Gruppe" src="gfs.html" keyvisual="content/images/keyvisual-gfs.jpg" background="content/images/background-startseite.jpg"></page>
+		<page navTitle="Die G.F.S. Gruppe" src="gfs.html" keyvisual="content/images/keyvisual-gfs.jpg" background=""></page>
 	</tree>
 </trees>
 

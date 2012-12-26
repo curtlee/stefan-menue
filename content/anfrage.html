@@ -1,0 +1,40 @@
+<h1>Unverbindliche Anfrage</h1>
+<h2>&nbsp;</h2>
+<label>Hier haben Sie die Möglichkeit, uns eine E-Mail zu senden:</label>
+
+<form name="email_form" method="post" action="anfrage.html">
+	<input type="hidden" name="type" value="email" />
+  <table border="0" cellpadding="0" cellspacing="0" class="kostenTabelle">
+    <tr> 
+        <td colspan="2" nowrap class="kostenTitel">###CONTACT_FORM_ERRORS###</td>
+    </tr>
+    <tr> 
+      <td colspan="2" nowrap class="formCell">&nbsp;</td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="formCell"><label>Ihr Name</label></td>
+      <td  nowrap class="formCell"> 
+        <input name="name" class="text" type="text" size="53" maxlength="256" value="###CONTACT_FORM_NAME###"></td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="formCell"><label>Ihr Text</label></td>
+      <td  nowrap class="formCell"> 
+        <textarea name="message" class="message" cols="40" rows="10">###CONTACT_FORM_MESSAGE###</textarea></td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="formCell"><label>Ihre Email-Adresse</label></td>
+      <td  nowrap class="formCell"> 
+        <input name="email" class="text" type="text" size="53" maxlength="256" value="###CONTACT_FORM_EMAIL###"></td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="formCell"><label>Ihre Telefon-Nr.</label></td>
+      <td  nowrap class="formCell"> 
+        <input name="telefon" class="text" type="text" size="53" maxlength="256" value="###CONTACT_FORM_TELEFON###"></td>
+    </tr>
+    <tr valign="top"> 
+      <td nowrap class="formCell">&nbsp;</td>
+      <td  nowrap class="formCell"> 
+        <input type="submit" name="Submit" value="Absenden"></td>
+    </tr>
+  </table>
+</form>

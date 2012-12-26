@@ -5,7 +5,8 @@ body {
 }
 
 #mainContainer {
-	border: 2px solid #d1d2d4;
+/*	border: 2px solid #d1d2d4;*/
+	margin-top: 20px;
 	width: 900px;
 	position: absolute;
 	left: 50%;
@@ -59,8 +60,8 @@ body {
 }
 
 #contentLeft {
-	width: 405px;
-	padding: 0 22px 0 43px;
+	width: 400px;
+	padding: 0 17px 0 53px;
 	float: left;
 }
 
