@@ -55,6 +55,10 @@ class menuedienstLib {
 		
 		$message = "Name: " . strval($contactFormInfo['name']) . "\nEmail: " . $contactFormInfo['emailSender'] . "\nTelefon: " . $contactFormInfo['telefon'] . "\n\nFrage:\n" . $contactFormInfo['message'];
 		mail("info@menuedienst-rhein-sieg.de", "Email-Anfrage über www.menuedienst-rhein-sieg.de", $message, "From: ".$contactFormInfo['emailSender']."\nX-Mailer: PHP/" . phpversion(). "\nCC: ");
+		
+			// header redirect
+		header('location: anfrage-erfolgreich.html');
+		
 		return $contactFormInfo;
 	}
 }

@@ -16,5 +16,8 @@
 		<page navTitle="Weitere Informationen..." src="info.html" keyvisual="content/images/keyvisual-speiseplaene.jpg" background="content/images/background-startseite.jpg"></page>
 		<page navTitle="Die G.F.S. Gruppe" src="gfs.html" keyvisual="content/images/keyvisual-gfs.jpg" background=""></page>
 	</tree>
+	<tree title="hiddenPages">
+		<page navTitle="Anfrage erfolgreich verschickt" src="anfrage-erfolgreich.html" keyvisual="content/images/keyvisual-kontakt.jpg" background="content/images/background-startseite.jpg"></page>
+	</tree>
 </trees>
 
