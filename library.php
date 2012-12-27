@@ -20,7 +20,7 @@ class menuedienstLib {
 			$pdfFileName = $downloadDirectory . 'menu0' . $menuNo . '.pdf';
 			$menuHTML .= '<div class="mealPlanItem">';
 			if ( file_exists( $pdfFileName ) ) {
-				$menuHTML .= '<a href="' . $pdfFileName . '">' . $weekString . '</a>';
+				$menuHTML .= '<a href="' . $pdfFileName . '" target="_blank">' . $weekString . '</a>';
 			} else {
 				$menuHTML .= $weekString;
 			}
