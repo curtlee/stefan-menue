@@ -1,3 +1,4 @@
+<h1>Menüplan-Upload</h1>
 <form action="menu-upload.php" method="post" enctype="multipart/form-data">
 	<label for="menu00">Menü 1</label>		<input type="file" name="menu[00]" accept="application/pdf" /><br/>
 	<label for="menu01">Menü 2</label>		<input type="file" name="menu[01]" accept="application/pdf" /><br/>

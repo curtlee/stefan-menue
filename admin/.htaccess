@@ -1,6 +1,6 @@
 AuthType Basic
 AuthName "Speiseplan-Upload"
-AuthUserFile .htpasswd
+AuthUserFile /kunden/homepages/9/d142297209/htdocs/menuedienst/relaunch/admin/.htpasswd
 Require valid-user
 
 #klartext: a3lp7ra
