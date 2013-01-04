@@ -17,7 +17,7 @@ class menuedienstLib {
 			$weekNo = (int) date('W', $lastDayOfWeek );
 			$menuNo = (($weekNo-1) % 52) % $numberOfMeals + 1;
 
-			$pdfFileName = $downloadDirectory . 'menu0' . $menuNo . '.pdf';
+			$pdfFileName = $downloadDirectory . 'woche0' . $menuNo . '.pdf';
 			$menuHTML .= '<div class="mealPlanItem">';
 			if ( file_exists( $pdfFileName ) ) {
 				$menuHTML .= '<a href="' . $pdfFileName . '" target="_blank">' . $weekString . '</a>';
